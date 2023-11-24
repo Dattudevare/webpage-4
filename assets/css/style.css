@@ -1,0 +1,325 @@
+@font-face {
+    font-family: font;
+    src: url(../font/bold.ttf);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: font, 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* header section start */
+.bg-blue {
+    background: #162652;
+}
+
+.bg-purple {
+    background-color: #5D3079;
+}
+
+.bg-purple8 {
+    background-color: #7608ba;
+}
+
+.bg-purple10 {
+    background-color: #6b398a;
+    border: 0;
+}
+
+/* search button */
+.bg-danger2 {
+    background-color: #F45466;
+}
+
+/* for flights */
+.bg-danger3 {
+    background-color: #BC3F52;
+}
+
+/* popular se */
+.bg-danger4 {
+    background-color: #1F152E;
+}
+
+/* get-estimate */
+.bg-purple-5 {
+    background-color: #664BAC;
+}
+
+/* calculate now */
+.bg-warning2 {
+    background-color: #FB9402;
+}
+
+/* fotter */
+.bg-purple-6 {
+    background-color: #1D1928;
+}
+
+.text-white1 {
+    color: #605E68;
+}
+
+.text-white-2 {
+    color: #B7B6BF
+}
+
+.text-danger1 {
+    color: #85f326;
+}
+
+.square li a:hover {
+    font-weight: 600;
+
+}
+
+/* /header section end/ */
+
+/* Baneer section start */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/BANNER.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 620px;
+}
+
+.banner .mt-10 {
+    margin-top: 7%;
+    margin-left: 15px;
+}
+
+.top-51 {
+    position: absolute;
+    top: 535px;
+}
+
+.checkf {
+    width: 20px;
+    height: 20px;
+}
+
+.button11 input {
+    position: absolute;
+    right: 65px;
+    top: 25px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    border: 0;
+    color: white;
+}
+
+.dropdown-toggle::after {
+    content: none
+}
+
+.text-black11:hover {
+    background: #111d3f;
+}
+
+.text-black12:hover {
+    color: rgb(243, 236, 38);
+
+}
+
+#checkbox input {
+    width: 20px;
+    height: 20px;
+}
+
+/* Baneer section end/ */
+/* fun section start */
+.item {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    opacity: 0.8;
+    background-color: black;
+}
+
+.dd {
+    width: 100px;
+    height: 100px;
+}
+
+.fun {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/desert.png);
+    background: cover;
+    background-size: 100% 100%;
+}
+
+/* fun section end */
+
+/* NEWSLATER SECTION START  */
+.newletter {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../img/plan.png);
+    background: cover;
+    background-size: 100% 100%;
+}
+
+.opacity-11 {
+    opacity: 0.1;
+    border: 2px solid white;
+}
+
+.w-11 {
+    width: 100px;
+    height: 40px;
+}
+
+/* NEWSLATER SECTION END/ */
+/* DESTINATION SECTION START */
+.destination .container .row .card .card-body span {
+    color: #faab83;
+}
+
+.destination .container .row .card img {
+    border-radius: 2px solid white;
+    border: 2px solid #fff;
+}
+
+.destination .container .row .card {
+    overflow: hidden;
+}
+
+.destination .container .row .card img:hover {
+    transform: scale(1.2);
+    transition: 1.8s all;
+}
+
+/* DESTINATION SECTION END */
+
+/* ESTIMATE SECTION OF QUICK START */
+.estimate hr {
+    width: 100px;
+    border: 2px solid lightgoldenrodyellow;
+}
+
+.estimate .bt {
+    width: 190px;
+    height: 50px;
+
+}
+
+.estimate {
+    position: relative;
+}
+
+.estimate .position1 img {
+    position: absolute;
+    top: 2000px;
+}
+
+.space li span {
+    color: #d4c1fc;
+}
+
+
+/* ESTIMATE SECTION OF QUICK ENND */
+
+/* footer start */
+.row .men li {
+    padding: 2px;
+    margin-right: 9px;
+}
+
+.male {
+    width: 30px;
+    height: 30px;
+}
+
+.padding11 {
+    margin-top: 0px;
+}
+
+/* footer end */
+/* meida query start */
+@media screen and (max-width: 550px) {
+    .button11 input {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .button11 input {
+        margin-left: 50px;
+        margin-top: 240px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mt-66 {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 320px) {
+    #margin-top {
+        margin-top: 200px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .fun {
+        margin-top: 180px;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    .button11 input {
+        margin-left: 50px;
+        margin-top: 240px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    form select,
+    form option,
+    form input {
+        display: block;
+    }
+
+    .estimate img {
+        width: 300px;
+        height: 400px;
+    }
+
+}
+@media screen and (max-width: 1199px){
+    .kk i{
+        size:50px
+    }
+}
+
+@media screen and (max-width: 575) {
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    .men ul li {
+        display: block;
+    }
+
+    .male ul li {
+        display: block;
+    }
+}
+
+
+/* meida query end */
